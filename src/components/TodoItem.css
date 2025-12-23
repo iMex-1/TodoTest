@@ -1,0 +1,103 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item.todo {
+  border-left: 4px solid #007bff;
+}
+
+.todo-item.in-progress {
+  border-left: 4px solid #ffc107;
+}
+
+.todo-item.done {
+  border-left: 4px solid #28a745;
+  opacity: 0.7;
+}
+
+.todo-content {
+  flex: 1;
+}
+
+.todo-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+.done .todo-text {
+  text-decoration: line-through;
+}
+
+.edit-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.edit-mode {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.display-mode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.status-select {
+  padding: 0.25rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-btn {
+  background: #007bff;
+  color: white;
+}
+
+.save-btn {
+  background: #28a745;
+  color: white;
+}
+
+.cancel-btn {
+  background: #6c757d;
+  color: white;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
