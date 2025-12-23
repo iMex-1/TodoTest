@@ -2,7 +2,7 @@ import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { Provider } from "react-redux";
 import { configureStore } from "@reduxjs/toolkit";
-import TodoItem from "./TodoItem";
+import TodoItem from "../components/TodoItem";
 import todoReducer from "../store/todoSlice";
 
 const createStore = () => {

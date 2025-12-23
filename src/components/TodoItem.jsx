@@ -6,7 +6,7 @@ import {
   updateTodoText,
   changeTodoStatus,
 } from "../store/todoSlice";
-import "./TodoItem.css";
+import "../styles/TodoItem.css";
 
 function TodoItem({ todo }) {
   const [isEditing, setIsEditing] = useState(false);

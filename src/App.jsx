@@ -3,7 +3,7 @@ import { store } from "./store/store";
 import AddTodo from "./components/AddTodo";
 import TodoList from "./components/TodoList";
 import TodoStats from "./components/TodoStats";
-import "./App.css";
+import "./styles/App.css";
 
 function App() {
   return (

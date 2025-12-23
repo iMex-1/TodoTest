@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { FaPlus } from "react-icons/fa";
 import { addTodo } from "../store/todoSlice";
-import "./AddTodo.css";
+import "../styles/AddTodo.css";
 
 function AddTodo() {
   const [todoText, setTodoText] = useState("");

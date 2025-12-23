@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import "./TodoStats.css";
+import "../styles/TodoStats.css";
 
 function TodoStats() {
   const todos = useSelector((state) => state.todos.todos);
